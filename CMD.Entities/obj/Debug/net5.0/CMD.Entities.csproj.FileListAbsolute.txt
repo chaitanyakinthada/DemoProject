@@ -1,0 +1,12 @@
+E:\Capgemini project\Project\dashboard\CMD.Entities\bin\Debug\net5.0\CMD.Entities.deps.json
+E:\Capgemini project\Project\dashboard\CMD.Entities\bin\Debug\net5.0\CMD.Entities.dll
+E:\Capgemini project\Project\dashboard\CMD.Entities\bin\Debug\net5.0\ref\CMD.Entities.dll
+E:\Capgemini project\Project\dashboard\CMD.Entities\bin\Debug\net5.0\CMD.Entities.pdb
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.csproj.AssemblyReference.cache
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.AssemblyInfoInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.AssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.csproj.CoreCompileInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.dll
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\ref\CMD.Entities.dll
+E:\Capgemini project\Project\dashboard\CMD.Entities\obj\Debug\net5.0\CMD.Entities.pdb

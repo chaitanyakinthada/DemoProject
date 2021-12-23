@@ -1,0 +1,178 @@
+﻿
+.card {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin-left: 0.8em;
+    margin-top: 2em;
+    padding: 0.5em;
+}
+
+.card2 {
+    width: 342px;
+    background: #ffffff;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar1 {
+    color: white;
+    background: #18385c;
+    padding: 0.5em;
+}
+
+.position {
+    margin-left: 20px;
+}
+
+.count {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.day {
+    font-size: 35px;
+    font-weight: bolder;
+    opacity: 0.5;
+    margin-left: 15px;
+}
+
+.heading {
+    font-size: 20;
+    font-weight: bold;
+}
+
+.filter {
+    align-items: flex-end;
+    text-align: right;
+}
+
+.addAppoint {
+    border-radius: 4px;
+    background: #18385c;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.date {
+    border-radius: 25px;
+    background: linear-gradient(to right, #18385c 50%, white 50%);
+    width: 80px;
+    height: 30px;
+    align-items: flex-end;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.apTime {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.apDate {
+    font-size: 10px;
+    font-weight: lighter;
+    margin-top: -8px;
+    margin-left: 10px;
+}
+
+.apIssue {
+    opacity: 0.5;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.details {
+    color: skyblue;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.vL {
+    border-left: 1px solid black;
+    height: 20px;
+    opacity: 0.2;
+}
+
+.line {
+    margin: 0px;
+    margin-left: -30px;
+}
+
+.call {
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.video {
+    margin-left: -10px;
+}
+
+.message {
+    margin-right: 5px;
+}
+
+.vL2 {
+    border-left: 1px solid black;
+    height: 40px;
+    opacity: 0.2;
+    margin-left: 20px;
+}
+
+.line2 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0.5em;
+    margin-right: -1em;
+    margin-top: 1em;
+}
+
+.inActive {
+    color: white;
+    font-size: 15px;
+    margin-top: 1.5em;
+}
+
+.rotate {
+    transform: rotate(270deg);
+}
+
+.search {
+    width: 100%;
+    background-color: white;
+    font-size: 10px;
+    padding: 0.5em;
+}
+
+.name2 {
+    opacity: 0.5;
+    font-size: 15px;
+}

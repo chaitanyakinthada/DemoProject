@@ -1,0 +1,12 @@
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\bin\Debug\net5.0\CMD.Exceptions.deps.json
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\bin\Debug\net5.0\CMD.Exceptions.dll
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\bin\Debug\net5.0\ref\CMD.Exceptions.dll
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\bin\Debug\net5.0\CMD.Exceptions.pdb
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.csproj.AssemblyReference.cache
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.AssemblyInfoInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.AssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.csproj.CoreCompileInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.dll
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\ref\CMD.Exceptions.dll
+E:\Capgemini project\Project\dashboard\CMD.Exceptions\obj\Debug\net5.0\CMD.Exceptions.pdb

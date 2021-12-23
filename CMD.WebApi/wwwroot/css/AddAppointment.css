@@ -1,0 +1,91 @@
+﻿{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+    .container .title {
+        font-size: 30px;
+        font-weight: 500;
+        font-weight: bold;
+        text-align: center;
+        color: royalblue;
+    }
+
+
+    .container form .patient-details {
+        margin: 20px 0 12px 0;
+    }
+
+form .patient-details .input-box {
+    margin-bottom: 20px;
+}
+
+.patient-details .input-box .details {
+    display: block;
+    font-size: 500;
+    margin-bottom: 5px;
+}
+
+.patient-details .input-box input {
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+    .patient-details .input-box input:focus
+    .patient-details .input-box input:valid {
+        border-color: #9b59b6;
+    }
+
+.patient-details .input-box .details
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    font-size: 22px;
+    height: 100%;
+    width: 100%;
+    padding: 8px 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+    form .button input:hover {
+        background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+
+@media (max-width: 584px) {
+    .container {
+        max-width: 100%;
+    }
+}

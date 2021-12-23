@@ -1,0 +1,12 @@
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\bin\Debug\net5.0\CMD.DataAccess.deps.json
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\bin\Debug\net5.0\CMD.DataAccess.dll
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\bin\Debug\net5.0\ref\CMD.DataAccess.dll
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\bin\Debug\net5.0\CMD.DataAccess.pdb
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.csproj.AssemblyReference.cache
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.AssemblyInfoInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.AssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.csproj.CoreCompileInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.dll
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\ref\CMD.DataAccess.dll
+E:\Capgemini project\Project\dashboard\CMD.DataAccess\obj\Debug\net5.0\CMD.DataAccess.pdb

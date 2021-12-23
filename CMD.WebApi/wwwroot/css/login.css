@@ -1,0 +1,68 @@
+﻿input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+    width: 20em;
+}
+
+.logiButton {
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border-color: black;
+    color: white;
+    background-color: #18385c;
+    opacity: 1;
+    width: 8em;
+    margin-top: 2em;
+}
+
+.topHeader {
+    text-align: right;
+    background-color: #18385c;
+    height: 3em;
+    padding-top: 0.6em;
+    padding-right: 0.6em;
+    color: white;
+    font-size: 20px;
+}
+
+.loginContainer {
+    text-align: center;
+}
+
+h1 {
+    color: #18385c;
+    font-size: 30px;
+    margin-top: 1em;
+}
+
+.formFeild {
+    margin-bottom: 1em;
+}
+
+.form-container {
+    margin-top: 5em;
+}
+
+img {
+    width: 105.4%;
+    height: 105.4%;
+    margin-left: -1.05em;
+}
+
+.loginAs {
+    text-align: right;
+    margin-top: 10em;
+}
+
+.user {
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 15px;
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}

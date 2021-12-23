@@ -1,0 +1,12 @@
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\bin\Debug\net5.0\CMD.UnitTesting.deps.json
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\bin\Debug\net5.0\CMD.UnitTesting.dll
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\bin\Debug\net5.0\ref\CMD.UnitTesting.dll
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\bin\Debug\net5.0\CMD.UnitTesting.pdb
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.csproj.AssemblyReference.cache
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.AssemblyInfoInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.AssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.csproj.CoreCompileInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.dll
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\ref\CMD.UnitTesting.dll
+E:\Capgemini project\Project\dashboard\CMD.UnitTesting\obj\Debug\net5.0\CMD.UnitTesting.pdb

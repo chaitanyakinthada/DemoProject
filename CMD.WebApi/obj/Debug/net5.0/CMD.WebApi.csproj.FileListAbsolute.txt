@@ -1,0 +1,86 @@
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\appsettings.json
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.exe
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.deps.json
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.runtimeconfig.json
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.runtimeconfig.dev.json
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.dll
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\ref\CMD.WebApi.dll
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.pdb
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.Views.dll
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.Views.pdb
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.AssemblyReference.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.AssemblyInfoInputs.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.AssemblyInfo.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorAssemblyInfo.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorAssemblyInfo.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\staticwebassets\CMD.WebApi.StaticWebAssets.Manifest.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\staticwebassets\CMD.WebApi.StaticWebAssets.xml
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\scopedcss\bundle\CMD.WebApi.styles.css
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.TagHelpers.input.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.TagHelpers.output.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorCoreGenerate.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorTargetAssemblyInfo.cs
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.Views.pdb
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.dll
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\ref\CMD.WebApi.dll
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.pdb
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.genruntimeconfig.cache
+C:\Users\Navakarthiga.r\Downloads\CMDProjectApplication\CMDProjectApplication\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.CopyComplete
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\appsettings.Development.json
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\appsettings.json
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.exe
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.deps.json
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.runtimeconfig.json
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.runtimeconfig.dev.json
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.dll
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\ref\CMD.WebApi.dll
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.pdb
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.Views.dll
+E:\Capgemini project\Project\dashboard\CMD.WebApi\bin\Debug\net5.0\CMD.WebApi.Views.pdb
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.AssemblyReference.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.AssemblyInfoInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.AssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.CoreCompileInputs.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.MvcApplicationPartsAssemblyInfo.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorAssemblyInfo.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorAssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\staticwebassets\CMD.WebApi.StaticWebAssets.Manifest.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\staticwebassets\CMD.WebApi.StaticWebAssets.xml
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\scopedcss\bundle\CMD.WebApi.styles.css
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.TagHelpers.input.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.TagHelpers.output.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorCoreGenerate.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorTargetAssemblyInfo.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.RazorTargetAssemblyInfo.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.Views.pdb
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.dll
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\ref\CMD.WebApi.dll
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.pdb
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.genruntimeconfig.cache
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\CMD.WebApi.csproj.CopyComplete
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Dashboard.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\AddAppointment.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\PatientDetail.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Patients.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Settings.cshtml.g.cs
+E:\Capgemini project\Project\dashboard\CMD.WebApi\obj\Debug\net5.0\Razor\Views\Home\Viewdetails.cshtml.g.cs

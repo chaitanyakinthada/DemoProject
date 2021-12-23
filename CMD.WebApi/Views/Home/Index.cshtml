@@ -1,0 +1,49 @@
+﻿@{
+
+    ViewData["Title"] = "Home Page";
+}
+<link href="~/css/login.css" rel="stylesheet" />
+<div class="container">
+    <div class="row topHeader ml-2">
+        <span style="text-align:left">Sign Up</span>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 col-md-6 col-12">
+            <img src="../../../../assets/images/CMD1.jpg" alt="">
+        </div>
+        <div class="col-xl-6 col-md-6 col-12 loginContainer">
+            <h1>Welcome to CMD</h1>
+            <div class="form-container">
+                <div class="formFeild">
+                    <div class="example-full-width">
+                        <input matInput name="UserName" #userName placeholder="Username" value="" formControlName="username">
+                    </div>
+                </div>
+                <div class="formFeild">
+                    <div class="example-full-width">
+                        <input matInput name="Password" #password type="password" placeholder="Password" value="" formControlName="password">
+                    </div>
+                </div>
+                <a asp-controller="Home" asp-action="Dashboard">
+                    <div class="example-button-row">
+                        <button mat-raised-button class="logiButton" (click)="login(userName.value,password.value)">log in</button>
+                        @*<input type="button" mat-raised-button class="loginButton" value="Login" onclick="location.href='@Url.Action("Dashboard", "Home")'" />*@
+
+                        @*<button mat-raised-button class="loginButton" (click)="login()" on>log in</button>*@
+                    </div>
+                </a>
+
+
+
+                <div class="loginAs">
+                    <div class="user">
+                        Login as doctor
+                    </div>
+                    <div class="user">
+                        Login as patient
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

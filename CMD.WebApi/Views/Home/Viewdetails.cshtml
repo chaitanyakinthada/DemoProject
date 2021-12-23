@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="~/css/Dashboard.css" rel="stylesheet" />
+    <link href="~/css/Viewdetails.css" rel="stylesheet" />
+
+
+    <title>ViewDetails</title>
+
+
+
+</head>
+<body>
+    <div class="row">
+        <div class="col-12 col-md-2 navbar1">
+            Connect My Doc
+            <div style="text-align: right; margin-top: -25px;">
+                <svg class="rotate" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                    <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
+                </svg>
+            </div>
+            <div class="sidebar">
+                <div class="active">
+                    <a href="./dashboard.html" style="color: #18385c;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#18385c" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+                            <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z" />
+                        </svg>
+                        <a asp-action="Dashboard"> Dashboard </a>
+                    </a>
+                </div>
+                <div class="inActive">
+                    <a class="inActive" href="../CMD CodeBase HTML/patientDashboard.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                        </svg>
+                        <a asp-action="Patient"> Patient </a>
+                    </a>
+                </div>
+                <div class="inActive">
+                    <a class="inActive" href="../CMD CodeBase HTML/account_settings.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z" />
+                        </svg>
+                        <a asp-action="Settings"> Settings </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-10">
+            <div class="topHead">
+                <div class="row">
+                    <div class="col-md-4 col-xl-3 col-xs-4 col-12" style="color: black; font-size: 25px; font-weight: bolder;margin-top: 0.2em;">
+                        Appointments
+                    </div>
+                    <div class="col-md-4 col-xl-2 col-xs-4 col-12" style="margin-top: 0.5em;">
+                        <div class="selectOptions">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg>
+                            <select id="location" style="width:80%; height: 30px; border: none; font-size: 12px;">
+                                <option value="St. Marry Clinic" selected>St. Marry Clinic</option>
+                                <option value="">....</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xl-2 col-12" style="margin-top: 0.5em;">
+                        <div class="selectOptions">
+                            <i class="fas fa-stethoscope"></i>
+                            <select id="doctor" style="width:80%; height: 30px; border: none; font-size: 12px;">
+                                <option value="Jhon Doe" selected>Jhon Doe</option>
+                                <option value="">....</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-2 col-12" style="margin-top: 0.5em;">
+                        <div style="color: blue; font-style: italic; font-size: 12px; padding-top: 0.6em;">
+                            <li>New Appointment</li>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-xl-3 col-12" style="text-align: right; margin-top: 0.5em;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
+                        </svg>
+                        <select id="user" style="width:80px; height: 28px; border: none; font-size: 10px;margin-left: 1em;">
+                            <option value="Jhon Doe" selected>Jhon Doe</option>
+                            <option value="">....</option>
+                        </select>
+                        <img style="width: 2em; height: 2em;" src="https://st2.depositphotos.com/1104517/11965/v/600/depositphotos_119659092-stock-illustration-male-avatar-profile-picture-vector.jpg">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="appointmentscontainer">
+                <div class="row">
+                    <div class="col-md-10 col-8">
+
+                    </div>
+                    <div class="col-md-2 col-4 buttonPosition">
+                        <div class="closeAppointmentButton">Close Appointment</div>
+                    </div>
+                    <div class="col-md-6 col-12 margin">
+                        <div class="patientscontainer">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="../../../../../../../assets/images/patient.jpg">
+                                </div>
+                                <div class="col-9">
+                                    <div class="fontOpacity">Patient</div>
+                                    <div class="personName">Daneil Maxwell</div>
+                                    <div class="font_15">Male, Age 26</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font_15px detailsPosition" style="font:10px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                        </svg>&nbsp;&nbsp;&nbsp;9123543286
+                                    </div>
+                                    <div class="font_15px detailsPosition" style="font:10px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-envelope" viewBox="0 0 16 16">
+                                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                        </svg>&nbsp;&nbsp;&nbsp;daneil.maxwell@gmail.com
+                                    </div>
+                                </div>
+                                <div class="col-1 verticalLine"></div>
+                                <div class="col-5">
+                                    <div class="font_15px detailsPosition" style="font:10px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                                            <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                                        </svg>&nbsp;&nbsp;&nbsp;26 September, 1995
+                                    </div>
+                                    <div class="font_15px detailsPosition" style="font:10px">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-droplet" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M7.21.8C7.69.295 8 0 8 0c.109.363.234.708.371 1.038.812 1.946 2.073 3.35 3.197 4.6C12.878 7.096 14 8.345 14 10a6 6 0 0 1-12 0C2 6.668 5.58 2.517 7.21.8zm.413 1.021A31.25 31.25 0 0 0 5.794 3.99c-.726.95-1.436 2.008-1.96 3.07C3.304 8.133 3 9.138 3 10a5 5 0 0 0 10 0c0-1.201-.796-2.157-2.181-3.7l-.03-.032C9.75 5.11 8.5 3.72 7.623 1.82z" />
+                                            <path fill-rule="evenodd" d="M4.553 7.776c.82-1.641 1.717-2.753 2.093-3.13l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448z" />
+                                        </svg>&nbsp;&nbsp;&nbsp;&nbsp;O +ve
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-12 margin">
+                        <app-view-appointment-doctor-details>
+                            <div class="doctorcontainer">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <img src="../../../../../../../assets/images/Dr.John.jpg">
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="fontOpacity">Doctor</div>
+                                        <div class="personName">Dr. Sammy winchester Maxwell</div>
+                                        <div class="font_15">Cardiologist</div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="font_15 detailsPosition">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                            </svg>&nbsp;&nbsp;&nbsp;&nbsp;9123543286
+                                        </div>
+                                        <div class="font_15 detailsPosition">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="gray" class="bi bi-envelope" viewBox="0 0 16 16">
+                                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                                            </svg>&nbsp;&nbsp;&nbsp;&nbsp;daneil.maxwell@gmail.com
+                                        </div>
+                                    </div>
+                                    <div class="col-1 verticalLine"></div>
+                                    <div class="col-5">
+                                        <div class="font_10_opacity">NPI No.</div>
+                                        <div class="font_15 marginLeft">6598456798</div>
+                                        <div class="font_10_opacity">PracticeLocation</div>
+                                        <div class="font_15 marginLeft">Banglore</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </app-view-appointment-doctor-details>
+                    </div>
+                    <br>
+
+
+                    <div class="col-md-12 col-12 margin">
+                        <app-view-edit-appointment-comments>
+                            <div class="commentscontainer">
+                                <div class="headingName">
+                                    Comment<span>
+                                        <button type="button" class="btn btn-outline-secondary">Edit</button>
+                                    </span>
+                                </div>
+                                <p>Patient has borderline cholestrol. He needs to maintain proper diet and exercise regularly</p>
+                            </div>
+                        </app-view-edit-appointment-comments>
+                    </div>
+
+
+                    <div class="col-md-6 col-12 margin">
+                        <app-view-appointment-recommendations>
+                            <div class="recommendationscontainer">
+                                <div class="headingName">Recommendation</div>
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="font_12">Search</div>
+                                        <input list="doctors" type="text" autocomplete="off" name="doctors">
+
+                                        <datalist id="doctors">
+                                            <option value="Dr.Susan Light"></option>
+                                            <option value="Dr. Alan Adam"></option>
+                                            <option value="Dr. John Doe"></option>
+                                            <option value="Dr. Zing Mathew"></option>
+                                        </datalist>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="doctors">Dr. Robert Dommino &nbsp;X</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </app-view-appointment-recommendations>
+                    </div>
+
+
+
+                    <div class="col-md-6 col-12 margin">
+                        <app-view-edit-appointment-vitals>
+                            <div class="vitalscontainer">
+                                <div class="headingName">Vitals<span><button type="button" class="btn btn-outline-secondary" onclick="return myFunction()" id="Edit/Save">Edit</button></span></div>
+                                <div class="row">
+                                    <div class="col-md-3 col-6 font_12">
+                                        <div class="margin">ECG</div>
+                                        <div class="margin">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="red" class="bi bi-heart" viewBox="0 0 16 16">
+                                                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+                                            </svg>
+                                        </div>
+                                        <div class="margin" id="ecg" contenteditable="false">79<span style="opacity: 0.5; margin-left: 2rem;">BPM</span></div>
+                                    </div>
+                                    <div class="col-md-3 col-6 font_12">
+                                        <div class="margin">Temperature</div>
+                                        <div class="margin">
+                                            <img src="../../../../../../../assets/images/temperature.png" style="height: 25px;">
+                                        </div>
+                                        <div class="margin" id="temp" contenteditable="false">37<span style="opacity: 0.5; margin-left: 1rem;">C</span></div>
+                                    </div>
+                                    <div class="col-md-3 col-6 font_12">
+                                        <div class="margin">Diabetes</div>
+                                        <div class="margin">
+                                            <img src="../../../../../../../assets/images/16266-200.png" style="height: 25px;">
+                                        </div>
+                                        <div class="margin" id="diabet" contenteditable="false">300<span style="opacity: 0.5; margin-left: 1rem;">mg/dl</span></div>
+                                    </div>
+                                    <div class="col-md-3 col-6 font_12">
+                                        <div class="margin">Respiration Rate</div>
+                                        <div class="margin">
+                                            <img src="../../../../../../../assets/images/respiration.png" style="height: 25px;">
+                                        </div>
+                                        <div class="margin" id="resRate" contenteditable="false">14<span style="opacity: 0.5; margin-left: 1rem;">BPM</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                function myFunction() {
+                                    var editorBtn = document.getElementById('ecg');
+                                    var element = document.getElementById('temp');
+                                    var ele1 = document.getElementById('diabet');
+                                    var ele2 = document.getElementById('resRates');
+                                    var edit = document.getElementById('Edit/Save');
+                                    if (element.isContentEditable) {
+                                        // Disable Editing
+
+                                        edit.innerHTML = "Edit";
+                                        element.contentEditable = 'false';
+                                        editorBtn.contentEditable = 'false';
+                                        ele1.contentEditable = 'false';
+                                        ele2.contentEditable = 'false';
+                                        // You could save any changes here.
+                                    } else {
+                                        edit.innerHTML = "Save";
+                                        element.contentEditable = 'true';
+                                        editorBtn.contentEditable = 'true';
+                                        ele1.contentEditable = 'true';
+                                        ele2.contentEditable = 'true';
+                                    }
+                                };
+                            </script>
+                    </div>
+                    </app-view-edit-appointment-vitals>
+
+
+                    <div class="col-md-6 col-12 margin">
+                        <app-view-all-prescriptions>
+                            <div class="prescriptionscontainer">
+                                <div class="row">
+                                    <div class="col-11">
+                                        <div class="headingName">Prescription</div>
+                                    </div>
+                                    <div class="col-1 " style="margin-left:150px;">
+                                        <button type="button" class="btn btn-primary">+</button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <div class="font_12">1. Crocine</div>
+                                            <div class="font_10_opacity">Dont use hot water during consume</div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="alignIcons">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="green" class="bi bi-pencil" viewBox="0 0 16 16">
+                                                    <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z" />
+                                                </svg>&nbsp;&nbsp;
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="red" class="bi bi-x-lg" viewBox="0 0 16 16">
+                                                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z" />
+                                                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z" />
+                                                </svg>
+                                            </div>
+                                            <div class="tabletsDose">After Food</div>
+                                            <svg id="_1-0-1" data-name="1-0-1" xmlns="http://www.w3.org/2000/svg" width="73.301" height="6.826" viewBox="0 0 73.301 6.826">
+                                                <line id="Line_62" data-name="Line 62" x2="67.992" transform="translate(1.896 3.413)" fill="none" stroke="#707070" stroke-width="1" />
+                                                <circle id="Ellipse_44" data-name="Ellipse 44" cx="3.413" cy="3.413" r="3.413" fill="#0090ff" />
+                                                <g id="Ellipse_45" data-name="Ellipse 45" transform="translate(32.614)" fill="#fff" stroke="#707070" stroke-width="1">
+                                                    <circle cx="3.413" cy="3.413" r="3.413" stroke="none" />
+                                                    <circle cx="3.413" cy="3.413" r="2.913" fill="none" />
+                                                </g>
+                                                <circle id="Ellipse_46" data-name="Ellipse 46" cx="3.413" cy="3.413" r="3.413" transform="translate(66.475)" fill="#0090ff" />
+                                            </svg>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </app-view-all-prescriptions>
+                    </div>
+
+
+
+                    <div class="col-md-6 col-12 margin">
+                        <app-view-appointment-test>
+                            <div class="testcontainer">
+                                <div class="headingName">Tests</div>
+                                <div class="font_12">Selected</div>
+                                <span class="tests">ECG &nbsp;X</span>
+                                <span class="tests">Exercise Stress Test &nbsp;X</span>
+                                <span class="tests">Creatine Kianse &nbsp;X</span>
+                                <span class="tests">Blood Test &nbsp;X</span>
+                                <div class="font_12">Search</div>
+                                <input list="doctors" type="text" autocomplete="off" name="doctors">
+
+                                <datalist id="doctors">
+                                    <option value="ECG"></option>
+                                    <option value="Exercise Stress Test"></option>
+                                    <option value="Creatine Kianse"></option>
+                                    <option value="Blood Test"></option>
+                                </datalist>
+                            </div>
+                        </app-view-appointment-test>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
+
